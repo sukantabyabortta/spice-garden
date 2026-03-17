@@ -1,6 +1,6 @@
 {
-    "name": "spicegarden",
-    "homepage": "https://sukantabyabortta.github.io/spicegarden",
+    "name": "spgarden",
+    "homepage": "https://sukantabyabortta.github.io/spgarden",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
