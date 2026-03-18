@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
@@ -14,8 +14,8 @@ root.render(
   //     <App />
   //   </BrowserRouter>
   // </React.StrictMode>
-  <BrowserRouter basename="/spice-garden">
+  <HashRouter>
     <App />
-  </BrowserRouter>
+  </HashRouter>
 );
 reportWebVitals();
