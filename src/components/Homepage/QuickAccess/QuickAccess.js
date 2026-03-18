@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 
 function QuickLinks({ title, links }) {
 
@@ -8,12 +9,19 @@ function QuickLinks({ title, links }) {
         <h2 className="section-title">{title}</h2>
 
         <div className="quick-links-grid">
-          {links.map((item, index) => (
-            <a href={item.link} className="quick-link-card" key={index}>
-              <i className={`fas ${item.icon}`}></i>
-              <span>{item.label}</span>
-            </a>
-          ))}
+          {links.map((item, index) =>
+            item.link.startsWith('#') ? (
+              <a href={item.link} className="quick-link-card" key={index}>
+                <i className={`fas ${item.icon}`}></i>
+                <span>{item.label}</span>
+              </a>
+            ) : (
+              <Link to={item.link} className="quick-link-card" key={index}>
+                <i className={`fas ${item.icon}`}></i>
+                <span>{item.label}</span>
+              </Link>
+            )
+          )}
         </div>
 
       </section>

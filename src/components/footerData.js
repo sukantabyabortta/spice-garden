@@ -42,11 +42,11 @@ const footerData = {
   ],
 
   social: [
-    { icon: "fab fa-facebook", href: "/" },
-    { icon: "fab fa-instagram", href: "/" },
-    { icon: "fab fa-twitter", href: "/" },
+    { icon: "fab fa-facebook", href: "#" },
+    { icon: "fab fa-instagram", href: "#" },
+    { icon: "fab fa-twitter", href: "#" },
     { icon: "fab fa-linkedin", href: "https://www.linkedin.com/in/sukanta-byabortta/" },
-    { icon: "fab fa-youtube", href: "/" }
+    { icon: "fab fa-youtube", href: "#" }
   ],
 
   copyright:

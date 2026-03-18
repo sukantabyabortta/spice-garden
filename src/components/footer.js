@@ -37,7 +37,11 @@ function Footer({
               <ul>
                 {menu.links.map((link, j) => (
                   <li key={j}>
-                    <a href={link.href}>{link.label}</a>
+                    {link.href.startsWith('#') ? (
+                      <a href={link.href}>{link.label}</a>
+                    ) : (
+                      <Link to={link.href}>{link.label}</Link>
+                    )}
                   </li>
                 ))}
               </ul>
@@ -59,9 +63,15 @@ function Footer({
             <h4>Follow Us</h4>
             <div className="social-links">
               {social.map((item, i) => (
-                <a href={item.href} key={i}>
-                  <i className={item.icon}></i>
-                </a>
+                item.href.startsWith('http') ? (
+                  <a href={item.href} key={i} target="_blank" rel="noreferrer">
+                    <i className={item.icon}></i>
+                  </a>
+                ) : (
+                  <Link to={item.href} key={i}>
+                    <i className={item.icon}></i>
+                  </Link>
+                )
               ))}
             </div>
           </div>
