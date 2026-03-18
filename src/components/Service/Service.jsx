@@ -2,7 +2,7 @@ import serviceData from "./serviceData";
 import Hero from "../../components/Hero";
 import Breadcrumbs from "../../components/Breadcrumbs";
 const breadcrumbs = [
-  { label: "Home", link: "/spice-garden" },
+  { label: "Home", link: "/" },
   { label: "Service" },
 ];
 
