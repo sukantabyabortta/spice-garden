@@ -34,16 +34,16 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/menu" element={<Menu />} />
 
-        {/* About dropdown routes */}
         <Route path="/our-story" element={<OurStory />} />
         <Route path="/meet-the-chef" element={<MeetTheChef />} />
         <Route path="/awards" element={<Awards />} />
         <Route path="/enquiry" element={<Enquiry />} />
 
-        {/* Other pages */}
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/service" element={<Service />} />
         <Route path="/contact" element={<Contact />} />
+
+        <Route path="*" element={<Home />} /> {/* fallback */}
       </Routes>
 
 
