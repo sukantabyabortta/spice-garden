@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 function Breadcrumbs({ items, show = true, className = "" }) {
   if (!show || !items || items.length === 0) return null;
 
@@ -8,7 +10,7 @@ function Breadcrumbs({ items, show = true, className = "" }) {
           {items.map((item, index) => (
             <li key={index}>
               {item.link ? (
-                <a href={item.link}>{item.label}</a>
+                <Link to={item.link}>{item.label}</Link>
               ) : (
                 item.label
               )}
