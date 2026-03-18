@@ -14,7 +14,7 @@ root.render(
   //     <App />
   //   </BrowserRouter>
   // </React.StrictMode>
-  <HashRouter basename="/spice-garden">
+  <HashRouter>
     <App />
   </HashRouter>
 );
