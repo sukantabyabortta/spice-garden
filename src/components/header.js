@@ -10,7 +10,7 @@ function Header({ logo, contact, languages }) {
           <div className="logo-section">
             <div className="org-info">
               <h1>
-                <Link className="siteLogo" to="/">
+                <Link className="siteLogo" to="/spice-garden">
                       <img src={logo} alt="Site Logo" />
                 </Link>
               </h1>

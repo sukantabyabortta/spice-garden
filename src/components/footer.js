@@ -16,7 +16,7 @@ function Footer({
 
           {/* Logo + Contact */}
           <div className="footer-section">
-            <Link className="footerLogo" to="/">
+            <Link className="footerLogo" to="/spice-garden">
                 <img src={logo} alt="Site Logo" />
             </Link>
             <p>{description}</p>

@@ -6,7 +6,7 @@ import contactForm from "./contactForm";
 import DynamicForm from "../components/DynamicForm";
 import { contactFormSchema } from "../components/contactFormSchema";
 const breadcrumbs = [
-  { label: "Home", link: "/" },
+  { label: "Home", link: "/spice-garden" },
   { label: "Contact Us" },
 ];
 
