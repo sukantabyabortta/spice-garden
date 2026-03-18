@@ -14,7 +14,7 @@ root.render(
   //     <App />
   //   </BrowserRouter>
   // </React.StrictMode>
-  <BrowserRouter basename="/">
+  <BrowserRouter basename="/spice-garden">
     <App />
   </BrowserRouter>
 );
