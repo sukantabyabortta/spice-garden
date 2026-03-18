@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/spice-garden/static/css/main.7dff664d.css",
+    "main.js": "/spice-garden/static/js/main.76c18eef.js",
+    "static/js/453.171914ba.chunk.js": "/spice-garden/static/js/453.171914ba.chunk.js",
+    "static/media/banner.png": "/spice-garden/static/media/banner.e35b90db4d12d503baee.png",
+    "static/media/indian-restaurant-interior.jpg": "/spice-garden/static/media/indian-restaurant-interior.f03473b3fa812110fd49.jpg",
+    "static/media/butter-chicken.jpg": "/spice-garden/static/media/butter-chicken.5d1c9df09a1b54017b9a.jpg",
+    "static/media/tandoori-platter.jpg": "/spice-garden/static/media/tandoori-platter.8711076652c645bb673a.jpg",
+    "static/media/dining-area.jpg": "/spice-garden/static/media/dining-area.0297a09a88a0bbbade0d.jpg",
+    "static/media/tandoor-kitchen.jpg": "/spice-garden/static/media/tandoor-kitchen.c0dafb2ca85ec129ade3.jpg",
+    "static/media/thali.jpg": "/spice-garden/static/media/thali.25e7d90fff52f9097b34.jpg",
+    "static/media/biryani.jpg": "/spice-garden/static/media/biryani.a874971d446a477b4ba5.jpg",
+    "static/media/chef-rajesh.jpg": "/spice-garden/static/media/chef-rajesh.776020167de4f960ee05.jpg",
+    "static/media/chef-priya.jpg": "/spice-garden/static/media/chef-priya.1edde85046e94879c0a0.jpg",
+    "static/media/chef-arjun.jpg": "/spice-garden/static/media/chef-arjun.5b3067c5a342d74878d8.jpg",
+    "static/media/site-logo.png": "/spice-garden/static/media/site-logo.6efb718f09b64f7a35ad.png",
+    "static/media/footer-site-logo.png": "/spice-garden/static/media/footer-site-logo.d92ce6510e84989befd9.png",
+    "index.html": "/spice-garden/index.html",
+    "main.7dff664d.css.map": "/spice-garden/static/css/main.7dff664d.css.map",
+    "main.76c18eef.js.map": "/spice-garden/static/js/main.76c18eef.js.map",
+    "453.171914ba.chunk.js.map": "/spice-garden/static/js/453.171914ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7dff664d.css",
+    "static/js/main.76c18eef.js"
+  ]
+}
