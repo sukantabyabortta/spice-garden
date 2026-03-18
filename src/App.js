@@ -30,7 +30,7 @@ function App() {
       <Offer />
 
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/spice-garden" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/menu" element={<Menu />} />
 
