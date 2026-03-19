@@ -65,7 +65,11 @@ function OurStory() {
         className="container"
       /> */}
 
-      <h1>Content Coming Soon...</h1>
+      <h1 style={{
+        color: "50px",
+        textAlign: "center",
+        margin: "150px 0"
+      }}>Content Coming Soon...</h1>
     </>
   );
 }
