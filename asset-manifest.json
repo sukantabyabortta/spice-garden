@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/spice-garden/static/css/main.bb0d096d.css",
+    "main.css": "/spice-garden/static/css/main.035a8d7c.css",
     "main.js": "/spice-garden/static/js/main.942ae4bd.js",
     "static/js/453.171914ba.chunk.js": "/spice-garden/static/js/453.171914ba.chunk.js",
     "static/media/banner.png": "/spice-garden/static/media/banner.e35b90db4d12d503baee.png",
@@ -17,12 +17,12 @@
     "static/media/site-logo.png": "/spice-garden/static/media/site-logo.6efb718f09b64f7a35ad.png",
     "static/media/footer-site-logo.png": "/spice-garden/static/media/footer-site-logo.d92ce6510e84989befd9.png",
     "index.html": "/spice-garden/index.html",
-    "main.bb0d096d.css.map": "/spice-garden/static/css/main.bb0d096d.css.map",
+    "main.035a8d7c.css.map": "/spice-garden/static/css/main.035a8d7c.css.map",
     "main.942ae4bd.js.map": "/spice-garden/static/js/main.942ae4bd.js.map",
     "453.171914ba.chunk.js.map": "/spice-garden/static/js/453.171914ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb0d096d.css",
+    "static/css/main.035a8d7c.css",
     "static/js/main.942ae4bd.js"
   ]
 }
