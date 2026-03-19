@@ -4,7 +4,7 @@ import biryani from "../assets/images/biryani.jpg";
 import thali from "../assets/images/thali.jpg";
 import kitchen from "../assets/images/tandoor-kitchen.jpg";
 import Breadcrumbs from "../components/Breadcrumbs";
-import Counter from "../components/counter";
+// import Counter from "../components/counter";
 
 function OurStory() {
   const images = [banner, biryani, thali, kitchen];
@@ -61,9 +61,11 @@ function OurStory() {
         </button>
       </div>
 
-      <Counter 
+      {/* <Counter 
         className="container"
-      />
+      /> */}
+
+      <h1>Content Coming Soon...</h1>
     </>
   );
 }
