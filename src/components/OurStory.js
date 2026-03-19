@@ -66,9 +66,10 @@ function OurStory() {
       /> */}
 
       <h1 style={{
-        color: "50px",
+        color: "#000",
+        fontSize: "50px",
         textAlign: "center",
-        margin: "150px 0"
+        margin: "150px 0",
       }}>Content Coming Soon...</h1>
     </>
   );
