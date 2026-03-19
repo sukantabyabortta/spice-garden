@@ -5012,13 +5012,27 @@ input:focus, textarea:focus {
 }
 
 /* notfound.css */
-.notfound-container {
+/* .notfound-container {
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   background: linear-gradient(135deg, #1e293b, #0f172a);
   font-family: 'Poppins', sans-serif;
+} */
+
+.notfound-container {
+    align-items: center;
+    background: linear-gradient(135deg, #1e293b, #0f172a);
+    display: flex;
+    font-family: Poppins, sans-serif;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
 }
 
 .notfound-box {
