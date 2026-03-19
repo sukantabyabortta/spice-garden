@@ -44,6 +44,9 @@ function App() {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/service" element={<Service />} />
         <Route path="/contact" element={<Contact />} />
+
+        {/* If no route matches, return home */} {/* fallback */}
+        <Route path="*" element={<Home />} />
       </Routes>
 
 
