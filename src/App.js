@@ -21,6 +21,7 @@ import Enquiry from "./components/enquiry";
 import Gallery from "./components/Gallery/Gallery";
 import Service from "./components/Service/Service";
 import Contact from "./components/Contact";
+import NotFound from "./components/NotFound";
 
 function App() {
   return (
@@ -45,8 +46,7 @@ function App() {
         <Route path="/service" element={<Service />} />
         <Route path="/contact" element={<Contact />} />
 
-        {/* If no route matches, return home */} {/* fallback */}
-        <Route path="*" element={<Home />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
 
 
