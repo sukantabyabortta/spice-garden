@@ -1,11 +1,22 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import navData from "./navigationData";
 
 function Navigation() {
+  const [isOpen, setIsOpen] = useState(false);
+  const showNav = () => {
+        setIsOpen(true); // always add, never remove
+  };
+  const hidenav = () => {
+        setIsOpen(false); // always add, never remove
+  };
+
   return (
     <nav className="nav-bar">
       <div className="nav-container">
-        <ul className="nav-menu">
+        <span class="mobileButton" onClick={showNav}></span>
+        <ul className={`nav-menu ${isOpen ? "change" : ""}`}>
+          <span class="closeButton" onClick={hidenav}></span>
           {navData.map((item, index) => (
             <li
               key={index}
