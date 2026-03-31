@@ -15,9 +15,9 @@ function Navigation() {
   return (
     <nav className="nav-bar">
       <div className="nav-container">
-        <span class="mobileButton" onClick={showNav}></span>
+        <span className="mobileButton" onClick={showNav}></span>
         <ul className={`nav-menu ${isOpen ? "change" : ""}`}>
-          <span class="closeButton" onClick={hidenav}></span>
+          <span className="closeButton" onClick={hidenav}></span>
           {navData.map((item, index) => (
             <li
               key={index}
