@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/spice-garden/static/css/main.8e16e4d6.css",
-    "main.js": "/spice-garden/static/js/main.79da326b.js",
+    "main.css": "/spice-garden/static/css/main.f5322dd3.css",
+    "main.js": "/spice-garden/static/js/main.83da76f6.js",
     "static/js/453.171914ba.chunk.js": "/spice-garden/static/js/453.171914ba.chunk.js",
     "static/media/banner.png": "/spice-garden/static/media/banner.e35b90db4d12d503baee.png",
     "static/media/indian-restaurant-interior.jpg": "/spice-garden/static/media/indian-restaurant-interior.f03473b3fa812110fd49.jpg",
@@ -17,12 +17,12 @@
     "static/media/site-logo.png": "/spice-garden/static/media/site-logo.6efb718f09b64f7a35ad.png",
     "static/media/footer-site-logo.png": "/spice-garden/static/media/footer-site-logo.d92ce6510e84989befd9.png",
     "index.html": "/spice-garden/index.html",
-    "main.8e16e4d6.css.map": "/spice-garden/static/css/main.8e16e4d6.css.map",
-    "main.79da326b.js.map": "/spice-garden/static/js/main.79da326b.js.map",
+    "main.f5322dd3.css.map": "/spice-garden/static/css/main.f5322dd3.css.map",
+    "main.83da76f6.js.map": "/spice-garden/static/js/main.83da76f6.js.map",
     "453.171914ba.chunk.js.map": "/spice-garden/static/js/453.171914ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8e16e4d6.css",
-    "static/js/main.79da326b.js"
+    "static/css/main.f5322dd3.css",
+    "static/js/main.83da76f6.js"
   ]
 }
