@@ -15,7 +15,7 @@ function Navigation() {
   return (
     <nav className="nav-bar">
       <div className="nav-container">
-        <span className="mobileButton" onClick={showNav}></span>
+        <span className="mobileButton" onClick={showNav}><i className="fa fa-bars"></i></span>
         <ul className={`nav-menu ${isOpen ? "change" : ""}`}>
           <span className="closeButton" onClick={hidenav}></span>
           {navData.map((item, index) => (

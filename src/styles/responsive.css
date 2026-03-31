@@ -180,32 +180,14 @@
         grid-gap: 25px;
     }
     .mobileButton {
-        display: block;
-        width: 30px;
-        height: 20px;
-        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 36px;
+        height: 36px;
         cursor: pointer;
-    }
-    /* Top, Middle, Bottom bars */
-    .mobileButton::before,
-    .mobileButton::after,
-    .mobileButton {
-        border-top: 3px solid #fff;
-    }
-    .mobileButton::before,
-    .mobileButton::after {
-        content: "";
-        position: absolute;
-        left: 0;
-        right: 0;
-    }
-    .mobileButton::before {
-        top: 4.6px;
-        /* Middle bar */
-    }
-    .mobileButton::after {
-        top: 14px;
-        /* Bottom bar */
+        color: #fff;
+        font-size: 22px;
     }
     .closeButton {
         display: block;
