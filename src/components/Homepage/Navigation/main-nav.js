@@ -23,7 +23,7 @@ function Navigation() {
               key={index}
               className={`nav-item ${item.dropdown ? "dropdown" : ""}`}
             >
-              <Link to={item.path}>
+              <Link to={item.path} onClick={item.dropdown ? undefined : hidenav}>
                 {item.icon && <i className={`fas ${item.icon}`}></i>}{" "}
                 {item.label}
                 {item.dropdown && <i className="fas fa-chevron-down"></i>}
@@ -33,7 +33,7 @@ function Navigation() {
                 <ul className="dropdown-menu">
                   {item.dropdown.map((subItem, subIndex) => (
                     <li key={subIndex}>
-                      <Link to={subItem.path}>{subItem.label}</Link>
+                      <Link to={subItem.path} onClick={hidenav}>{subItem.label}</Link>
                     </li>
                   ))}
                 </ul>
