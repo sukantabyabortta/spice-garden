@@ -1763,6 +1763,7 @@ body {
 
 .news_box {
     background: #f8f9fa;
+    color: #000;
     border-left: 5px solid #ef2929;
     padding: 20px;
     cursor: grab;
