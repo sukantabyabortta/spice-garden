@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import navData from "./navigationData";
 
 function Navigation() {
+
   const [isOpen, setIsOpen] = useState(false);
   const showNav = () => {
         setIsOpen(true); // always add, never remove
@@ -14,9 +15,9 @@ function Navigation() {
   return (
     <nav className="nav-bar">
       <div className="nav-container">
-        <a class="mobileButton" onClick={showNav}></a>
+        <span class="mobileButton" onClick={showNav}></span>
         <ul className={`nav-menu ${isOpen ? "change" : ""}`}>
-          <a class="closeButton" onClick={hidenav}></a>
+          <span class="closeButton" onClick={hidenav}></span>
           {navData.map((item, index) => (
             <li
               key={index}
